@@ -1,0 +1,24 @@
+.sidebar {
+    display: none;
+    position: absolute;
+    height: 50%;
+    width: 25vw;
+    border: 2px solid black;
+    background-color: blueviolet;
+
+    &.visible {
+        display: block;
+    }
+
+    .closeButton {
+        border: 1px solid black;
+        position: relative;
+        border-radius: 8px;
+        left: 5px;
+        top: 5px;
+        width: 15px;
+        height: 19px;
+        cursor: pointer;
+        padding-left: 3px;
+    }
+}
